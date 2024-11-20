@@ -9,7 +9,7 @@ public class LuckyNumber {
         // Generate a random number between 1 and 10
         int luckyNumber = random.nextInt(10) + 1;
 
-        System.out.println("Welcome to the Lucky Number Game!");
+        System.out.println("Welcome to the Iftikhar Lucky Number Game!");
         System.out.println("Guess a number between 1 and 10:");
 
         try {
