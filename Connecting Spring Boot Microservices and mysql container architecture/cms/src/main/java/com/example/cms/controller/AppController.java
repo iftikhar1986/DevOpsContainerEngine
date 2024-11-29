@@ -23,7 +23,7 @@ public class AppController {
     private CustomerRepository repository;
 
     // Endpoint to add a customer
-    @GetMapping("/add")
+    @PostMapping("/add")
     public Response addCustomer(@RequestParam String name, @RequestParam String phone, @RequestParam String email) {
         // Create a new Customer object
         Customer customer = new Customer();
